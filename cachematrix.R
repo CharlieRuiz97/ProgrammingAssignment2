@@ -2,7 +2,8 @@
 ##La segunda brinda la inversa si los valores almacenados no osn iguales a NULL, de lo contrario la calcula
 
 ## Esta funcion lo que hace es establecer los parametros para la matriz x
-## Tambien establece variables como "inversa" la inversa de la matriz como nulos 
+## Tambien establece variables como "inversa" la inversa de la matriz como nulos
+## Y Define las variables que almacenaran la inversa de la matriz en la cache
 
 makeCacheMatrix <- function(x = matrix()) {
 inversa <- NULL #Configura la variable inversa como nula dejando espacio para el futuro valor de la matriz inversa/ set "inversa" as NULL making a placeholder for the future value of the inverse matrix
