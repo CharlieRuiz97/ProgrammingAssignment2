@@ -1,7 +1,7 @@
 ##La primera funcion establece los parametros para el calculo dela matriz inversa y trata de almacenar los datos en la cache para ser usados luego
 ##La segunda brinda la inversa si los valores almacenados no osn iguales a NULL, de lo contrario la calcula
 
-## Esta funcion lo que hace es establecer los parametros para la matriz x
+## Esta funcion "makeCacheMatrix" lo que hace es establecer los parametros para la matriz x
 ## Tambien establece variables como "inversa" la inversa de la matriz como nulos
 ## Y Define las variables que almacenaran la inversa de la matriz en la cache
 
@@ -19,8 +19,8 @@ list(establecer=establecer,obtener=obtener,establecerinversa=establecerinversa,o
 }
 
 
-## Esta funcion, brinda la inversa si esta almacenada en la cache, sino la calcula y almacena su valor en cache para ser usado cuando se necesite...
-## This function gives the inverse if it's stored in cache, if not the function calculates it and stores the value in cache to be used when needed...
+## Esta funcion "cacheSolve", brinda la inversa si esta almacenada en la cache, sino la calcula y almacena su valor en cache para ser usado cuando se necesite...
+## This function "cacheSolve" gives the inverse if it's stored in cache, if not the function calculates it and stores the value in cache to be used when needed...
 
 cacheSolve <- function(x, ...) {
       inversa <- x$obtenerinversa()  #Obtiene la inversa almacenada en la cache/get the "inversa" values stored in cache
